@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download APK</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Flexbox to center content */
+            justify-content: center; /* Horizontally center content */
+            align-items: center; /* Vertically center content */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Light background color for contrast */
+        }
+        .download-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #28a745; /* Green background */
+            color: #ffffff; /* White text color */
+            font-size: 18px; /* Font size for the link */
+            text-decoration: none; /* Remove underline from the link */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .download-link:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body> 
+    <!-- Styled Download Link -->
+     <img src="./logo.png" alt="logo" width="400">
+    <a href="./app-debug.apk" class="download-link" download>Download Our App</a>
+</body>
+</html>
