@@ -7,32 +7,45 @@
     <style>
         body {
             display: flex;
-            flex-direction: column; /* Flexbox to center content */
-            justify-content: center; /* Horizontally center content */
-            align-items: center; /* Vertically center content */
-            height: 100vh; /* Full viewport height */
-            margin: 0; /* Remove default margin */
-            background-color: #f0f0f0; /* Light background color for contrast */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
         }
         .download-link {
             display: inline-block;
             padding: 15px 30px;
-            background-color: #28a745; /* Green background */
-            color: #ffffff; /* White text color */
-            font-size: 18px; /* Font size for the link */
-            text-decoration: none; /* Remove underline from the link */
-            border-radius: 5px; /* Rounded corners */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
-            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+            background-color: #28a745;
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+            margin-top: 20px; /* Added margin for spacing */
         }
         .download-link:hover {
-            background-color: #218838; /* Darker green on hover */
+            background-color: #218838;
+        }
+        .gallery-link {
+            margin-top: 20px; /* Added spacing above the gallery link */
+            display: inline-block;
+            color: #007bff; /* Blue color for the link */
+            font-size: 16px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .gallery-link:hover {
+            color: #0056b3; /* Darker blue on hover */
         }
     </style>
 </head>
-<body> 
-    <!-- Styled Download Link -->
-     <img src="./logo.png" alt="logo" width="400">
+<body>
+    <img src="./logo.png" alt="logo" width="400">
     <a href="./app-debug.apk" class="download-link" download>Download Our App</a>
+    <!-- Link to Gallery Page -->
+    <a href="gallery.html" class="gallery-link">Visit Our Gallery</a>
 </body>
 </html>
