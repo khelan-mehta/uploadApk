@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Download APK</title>
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        .download-link {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #28a745;
-            color: #ffffff;
-            font-size: 18px;
-            text-decoration: none;
-            border-radius: 5px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease;
-            margin-top: 20px; /* Added margin for spacing */
-        }
-        .download-link:hover {
-            background-color: #218838;
-        }
-        .gallery-link {
-            margin-top: 20px; /* Added spacing above the gallery link */
-            display: inline-block;
-            color: #007bff; /* Blue color for the link */
-            font-size: 16px;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        .gallery-link:hover {
-            color: #0056b3; /* Darker blue on hover */
-        }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .download-link {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #28a745;
+        color: #ffffff;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+        margin-top: 20px; /* Added margin for spacing */
+      }
+      .download-link:hover {
+        background-color: darkgreen;
+      }
+      .gallery-link {
+        margin-top: 20px; /* Added spacing above the gallery link */
+        display: inline-block;
+        color: darkgreen; /* Blue color for the link */
+        font-size: 16px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .gallery-link:hover {
+        color: black; /* Darker blue on hover */
+      }
     </style>
-</head>
-<body>
-    <img src="./logo.png" alt="logo" width="400">
-    <a href="./app-debug.apk" class="download-link" download>Download Our App</a>
+  </head>
+  <body>
+    <img src="./logo.png" alt="logo" width="400" />
+    <a href="./app-debug.apk" class="download-link" download
+      >Download Our App</a
+    >
     <!-- Link to Gallery Page -->
     <a href="gallery.html" class="gallery-link">Visit Our Gallery</a>
-</body>
+  </body>
 </html>
